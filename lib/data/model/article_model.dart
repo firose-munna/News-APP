@@ -17,7 +17,5 @@ class ArticleModel {
         required this.publishedAt,
         required this.content
       });
-        //}
-// );
 
 }

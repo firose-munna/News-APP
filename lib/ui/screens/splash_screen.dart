@@ -12,7 +12,6 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   void initState() {
     // TODO: implement initState
@@ -22,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void goToHomeScreen(){
     Future.delayed(const Duration(seconds: 2)).then((value) => {
-      Get.offAll(const HomeScreen())
+      Get.offAll(()=>const HomeScreen())
     });
   }
 

@@ -5,7 +5,7 @@ class ArticleModel {
   String url;
   String urlToImage;
   String publishedAt;
-  //String content;
+  String content;
 
   ArticleModel(
       {
@@ -14,9 +14,10 @@ class ArticleModel {
         required this.description,
         required this.url,
         required this.urlToImage,
-        required this.publishedAt
+        required this.publishedAt,
+        required this.content
       });
-        //required this.content}
+        //}
 // );
 
 }
